@@ -1,27 +1,60 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400");
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap);
 
-* {
+*, *::before, *::after {
+    font-family: 'Open Sans', 'sans-serif';
     box-sizing: border-box;
-    font-family: "Raleway";
-    }
+    margin: 0;
+    padding: 0;
+}
 
 html {
-    background-color: cornflowerblue;
-    }
+	background-image: url(https://lotgrafix.com/wp-content/uploads/2019/04/34-asana-color-gradient.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
-.nav ul {
-    text-align: center;
-    margin: 0;
-    }
+.linkk {
+	text-align: center;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: white;
+	text-decoration: none;
+}
 
-.nav a {
-    text-align: center;
-    display: inline-block;
-    padding: .5em;
-    color: white;
-    }
+.saku {
+	color: white;
+	text-align: center;
+	font-size: 100px;
+}
 
-div.a {
-    text-align: center;
-    }
-      
+.baby {
+	border-radius: 50px;
+	width: 50px;
+	height: 50px;
+}
+
+@keyframes spinning {
+    from { transform: rotate(0deg) }
+    to { transform: rotate(360deg) }
+  }
+
+.spn:hover {
+	animation-name: spinning;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.abot {
+	margin: 0px;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 120px;
+	color: white;
+}
+
+.contact {
+	margin-top: 120px;
+	font-size: 40px;
+	color: white;
+	text-align: center;
+}
